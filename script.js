@@ -70,7 +70,3 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
     }
 })
 
-function logout() {
-    localStorage.removeItem("token");
-    window.location.href = "./index.html";
-}
